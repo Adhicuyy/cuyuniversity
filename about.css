@@ -1,0 +1,80 @@
+*,html{
+    padding: 0;
+    margin: 0;
+}
+
+.NAVBAR{
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+}
+.UL-NAVBAR{
+display: flex;
+height: 80PX;
+justify-content: center;
+align-items: center ;
+}
+.LI-NAVBAR{       
+    list-style-type: none;
+    padding: 10PX;
+    color: white;
+    font-size: 20px;
+
+}
+.LI-NAVBAR:hover{
+    background-color:green;
+    transition: .5S ease-in-out;
+    transition-delay: .5S;
+    border-radius: 8PX;
+    
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container-conten{
+    background-color: rgb(136, 124, 124)67, 160, 160;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 80vh;
+}
+
+.conten2{
+    background-color: white;
+    text-decoration: none;
+    color: red;
+    font-size: 20PX;
+    width:30%;
+    height: 70%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80PX;
+    box-shadow: box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.img-conten{
+    width: 50%;
+    height: 50%;
+ 
+    
+}
+
+.H1-FOOTER{
+    height: 10vh;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.footer{
+    font-size: 20px;
+    color: white;
+}
